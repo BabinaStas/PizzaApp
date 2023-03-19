@@ -7,12 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FE7301;
-   background-image: url('../images/PizzaForYou.jpg');
-   background-attachment: fixed;
-   background-position: left top;
-   background-repeat: repeat-x;
-   background-size: 100% 100%;
+   background-color: #FFFFFF;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -43,34 +38,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text6 div
-{
-   text-align: left;
-}
-#wb_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text7 div
-{
-   text-align: left;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -82,20 +49,6 @@ input:focus, textarea:focus, select:focus
    text-align: left;
 }
 #wb_Text1 div
-{
-   text-align: left;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text3 div
 {
    text-align: left;
 }
@@ -113,20 +66,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text5 div
-{
-   text-align: left;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -141,19 +80,71 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#Button2
+#wb_Text3 
 {
-   box-sizing: border-box;
-   line-height: 41px;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #B8860B;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 1px solid #FF4500;
    border-radius: 4px;
-   background-color: #D2B48C;
+   background-color: #FF8C00;
    background-image: none;
    color: #FFFFFF;
    font-family: "Comic Sans MS";
-   font-weight: bold;
+   font-weight: normal;
    font-style: normal;
    font-size: 32px;
    padding: 1px 6px 1px 6px;
