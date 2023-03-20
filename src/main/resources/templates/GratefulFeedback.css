@@ -44,20 +44,6 @@ body
 {
    text-align: left;
 }
-#wb_Text5 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text5 div
-{
-   text-align: left;
-}
 #Button2
 {
    border: 1px solid #FF4500;
@@ -76,6 +62,27 @@ body
 }
 }
 #Button2:focus
+{
+   outline: 0;
+}
+#Button1
+{
+   border: 1px solid #FF4500;
+   border-radius: 4px;
+   background-color: #FF8C00;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Comic Sans MS";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 32px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button1:focus
 {
    outline: 0;
 }
