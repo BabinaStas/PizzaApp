@@ -1,10 +1,3 @@
-div#container
-{
-   width: 970px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    background-color: #FFFFFF;
@@ -16,34 +9,12 @@ body
    margin: 0;
    text-align: center;
 }
-a
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-a:visited
-{
-   color: #800080;
-}
-a:active
-{
-   color: #FF0000;
-}
-a:hover
-{
-   color: #0000FF;
-   text-decoration: underline;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
-}
 #wb_Text1 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
+   border: 0 solid #000000;
+   border-radius: 0;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -147,13 +118,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton2 input[type='radio']:checked + label::after
@@ -161,7 +132,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton2 input[type='radio']:focus + label::before
@@ -248,13 +218,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton3 input[type='radio']:checked + label::after
@@ -262,7 +232,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton3 input[type='radio']:focus + label::before
@@ -477,13 +446,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton1 input[type='radio']:checked + label::after
@@ -491,7 +460,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton1 input[type='radio']:focus + label::before
@@ -550,13 +518,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton4 input[type='radio']:checked + label::after
@@ -564,7 +532,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton4 input[type='radio']:focus + label::before
@@ -623,13 +590,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton5 input[type='radio']:checked + label::after
@@ -637,7 +604,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton5 input[type='radio']:focus + label::before
@@ -724,13 +690,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton6 input[type='radio']:checked + label::after
@@ -738,7 +704,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton6 input[type='radio']:focus + label::before
@@ -825,13 +790,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton7 input[type='radio']:checked + label::after
@@ -839,7 +804,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton7 input[type='radio']:focus + label::before
@@ -898,13 +862,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton8 input[type='radio']:checked + label::after
@@ -912,7 +876,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton8 input[type='radio']:focus + label::before
@@ -971,13 +934,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton9 input[type='radio']:checked + label::after
@@ -985,7 +948,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton9 input[type='radio']:focus + label::before
@@ -1072,13 +1034,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton10 input[type='radio']:checked + label::after
@@ -1086,7 +1048,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton10 input[type='radio']:focus + label::before
@@ -1173,13 +1134,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton11 input[type='radio']:checked + label::after
@@ -1187,7 +1148,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton11 input[type='radio']:focus + label::before
@@ -1246,13 +1206,13 @@ input:focus, textarea:focus, select:focus
    height: 22px;
    left: 0;
    top: 0;
+   visibility: visible;
    padding: 0;
    text-align: center;
    line-height: 22px;
    border-radius: 50%;
    color: #FFFFFF;
    content: " ";
-   -webkit-transform: scale(0, 0);
    transform: scale(0, 0);
 }
 #wb_RadioButton12 input[type='radio']:checked + label::after
@@ -1260,7 +1220,6 @@ input:focus, textarea:focus, select:focus
    background-color: #D2B48C;
    background-image: none;
    border-color: #D2B48C;
-   -webkit-transform: scale(0.66, 0.66);
    transform: scale(0.66, 0.66);
 }
 #wb_RadioButton12 input[type='radio']:focus + label::before
@@ -1283,21 +1242,10 @@ input:focus, textarea:focus, select:focus
    -webkit-appearance: none;
    margin: 0;
 }
-#Button2
+
+#Button1:focus
 {
-   border: 1px solid #FF4500;
-   border-radius: 4px;
-   background-color: #FF8C00;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: "Comic Sans MS";
-   font-weight: normal;
-   font-style: normal;
-   font-size: 32px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
+   outline: 0;
 }
 #wb_Text22 
 {
@@ -1328,4 +1276,51 @@ input:focus, textarea:focus, select:focus
    text-align: center;
    -webkit-appearance: none;
    margin: 0;
+}
+
+#Button3:focus
+{
+   outline: 0;
+}
+#Button2
+{
+   border: 1px solid #FF4500;
+   border-radius: 4px;
+   background-color: #FF8C00;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Comic Sans MS";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 32px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#Button2:focus
+{
+   outline: 0;
+}
+#Button4
+{
+   border: 1px solid #FF4500;
+   border-radius: 4px;
+   background-color: #FF8C00;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Comic Sans MS";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 32px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+#Button4:focus
+{
+   outline: 0;
 }
